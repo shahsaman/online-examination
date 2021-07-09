@@ -46,6 +46,7 @@ public partial class PracticeResult : System.Web.UI.Page
         DataTable dt3 = new DataTable();
         da3.Fill(dt3);
         Label8.Text = dt3.Rows[0]["Option" + dt.Rows[2]["Opt_Selected"].ToString()].ToString();
+        
 
         SqlDataAdapter da4 = new SqlDataAdapter("SELECT  Option" + dt.Rows[3]["Opt_Selected"].ToString() + " FROM " + sub + " WHERE Id=" + dt.Rows[3]["Que_Id"].ToString(), con);
         DataTable dt4 = new DataTable();
@@ -70,11 +71,21 @@ public partial class PracticeResult : System.Web.UI.Page
         DataTable dt7 = new DataTable();
         da7.Fill(dt7);
         Label6.Text = dt7.Rows[0]["Option" + dt.Rows[1]["Ans"].ToString()].ToString();
+        
+        SqlDataAdapter da8 = new SqlDataAdapter("SELECT  Option" + dt.Rows[2]["Ans"].ToString() + " FROM " + sub + " WHERE Id=" + dt.Rows[2]["Que_Id"].ToString(), con);
+        DataTable dt8 = new DataTable();
+        da8.Fill(dt8);
+        Label9.Text = dt8.Rows[0]["Option" + dt.Rows[2]["Ans"].ToString()].ToString();
 
-        Label9.Text = dt.Rows[2]["Ans"].ToString();
-        Label12.Text = dt.Rows[3]["Ans"].ToString();
+        SqlDataAdapter da9 = new SqlDataAdapter("SELECT  Option" + dt.Rows[3]["Ans"].ToString() + " FROM " + sub + " WHERE Id=" + dt.Rows[3]["Que_Id"].ToString(), con);
+        DataTable dt9 = new DataTable();
+        da9.Fill(dt9);
+        Label12.Text = dt9.Rows[0]["Option" + dt.Rows[3]["Ans"].ToString()].ToString();
 
-        Label15.Text = dt.Rows[4]["Ans"].ToString();
+        SqlDataAdapter da10 = new SqlDataAdapter("SELECT  Option" + dt.Rows[4]["Ans"].ToString() + " FROM " + sub + " WHERE Id=" + dt.Rows[4]["Que_Id"].ToString(), con);
+        DataTable dt10 = new DataTable();
+        da10.Fill(dt10);
+        Label15.Text = dt10.Rows[0]["Option" + dt.Rows[4]["Ans"].ToString()].ToString();
 
 
 
