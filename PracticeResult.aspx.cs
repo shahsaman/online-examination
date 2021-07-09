@@ -34,10 +34,7 @@ public partial class PracticeResult : System.Web.UI.Page
                 
             }
 
-            if (right_ans != 0)
-            {
-                right_ans = right_ans + 1;
-            }
+           
             
        
         
