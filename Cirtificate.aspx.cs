@@ -7,18 +7,18 @@ using System.Web.UI.WebControls;
 
 public partial class Cirtificate : System.Web.UI.Page
 {
-    string sub;
+    string sub,name;
 
     protected void Page_Load(object sender, EventArgs e)
     {
 
-        string user = User.Identity.Name;
+        //string user = User.Identity.Name;
         //string user = System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToString();
+       name = Session["Name"].ToString();
+       Label1.Text = name;
+       sub = Session["Subject"].ToString();
+       Label2.Text = sub;
 
-        Label1.Text = user;
-        sub = Session["Subject"].ToString();
-
-        Label2.Text = sub;
 
 
     }

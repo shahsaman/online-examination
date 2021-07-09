@@ -13,7 +13,7 @@ public partial class SignIn : System.Web.UI.Page
     string strConnString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
 
 
-    string str, email, password;
+    string str, email, password, name;
 
     SqlCommand com;
 
@@ -51,10 +51,15 @@ public partial class SignIn : System.Web.UI.Page
 
             password = dt.Rows[i]["Password"].ToString();
 
+            name = dt.Rows[i]["Name"].ToString();
+
+            
+
             if (email == emailid.Text && password == lpassword.Text)
             {
 
                 Session["emailid"] = email;
+                Session["Name"] = name;
 
                 if (dt.Rows[i]["role"].ToString() == "Admin")
 

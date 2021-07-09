@@ -31,49 +31,44 @@
         #d3
         {
             
-            width: 851px;
+            width: 976px;
             height: 79px;
         }
         
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div id="d2">
+    <form id="form1" runat="server" >
+    <div id="d2" style="background-color:#c9f02f;align-items:center">
     <div>
     
-      <div class="d1" id="dd">
-      
-          <asp:Image ID="Image1" runat="server" Height="83px" 
-              ImageUrl="~/images/logo.png" Width="103px" />
-      
-      </div>  
       <div class="d1" id="d3">
-      
-          <asp:Image ID="Image2" runat="server" Height="84px" 
-              ImageUrl="~/images/slider/bg2.jpg" Width="858px" />
+      <h1 style="color:white;position:absolute;z-index:10;text-align:center; top: 175px; left: 218px; width: 986px; height: 80px;
+ background-color:#02aab0;">Certificate of Excellence</h1>
+        
       
       </div>
 
 
 &nbsp;<br />
         <br />
-&nbsp;</div>
+&nbsp;
+        <asp:Label ID="Label1" runat="server" Style="position:absolute;font-weight:500;font-size:50px;color:black; top: 324px; left: 663px;"></asp:Label>
+        </div>
     <br />
     <br />
     <br />
-    <br />
+    <p style="position:absolute;color:black;text-align:center; top: 415px; left: 393px; width: 627px;">You have successfully completed the <asp:Label ID="Label2" runat="server"></asp:Label> exam from STAS</p>
+        <br />
     <br />
     <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<asp:Label ID="Label1" runat="server"></asp:Label>
     <br />
     <br />
 <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You have successfully completed the
-       <asp:Label ID="Label2" runat="server"></asp:Label> &nbsp;exam from STAS
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
     <br />
     <br />
-    <h3>Authorized by:<br /> <h2> Bindhu</h2></h3>
+
     <br />
 
         <br />
