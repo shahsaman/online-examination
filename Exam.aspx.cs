@@ -106,38 +106,9 @@ public partial class Exam : System.Web.UI.Page
                     case 4: Button4.BackColor = Color.Green;
                         break;
                     case 5: Button5.BackColor = Color.Green;
+           
                         break;
-                    case 6: Button8.BackColor = Color.Green;
-                        break;
-                    case 7: Button9.BackColor = Color.Green;
-                        break;
-                    case 8: Button10.BackColor = Color.Green;
-                        break;
-                    case 9: Button11.BackColor = Color.Green;
-                        break;
-                    case 10: Button12.BackColor = Color.Green;
-                        break;
-                    case 11: Button13.BackColor = Color.Green;
-                        break;
-                    case 12: Button14.BackColor = Color.Green;
-                        break;
-                    case 13: Button15.BackColor = Color.Green;
-                        break;
-                    case 14: Button16.BackColor = Color.Green;
-                        break;
-                    case 15: Button17.BackColor = Color.Green;
-                        break;
-                    case 16: Button18.BackColor = Color.Green;
-                        break;
-                    case 17: Button19.BackColor = Color.Green;
-                        break;
-                    case 18: Button20.BackColor = Color.Green;
-                        break;
-                    case 19: Button21.BackColor = Color.Green;
-                        break;
-                    case 20: Button22.BackColor = Color.Green;
-                        count = 0;
-                        break;
+                    count = 0;
                     default:
                         break;
                 }
@@ -183,81 +154,6 @@ public partial class Exam : System.Web.UI.Page
         display(5);
     }
 
-    protected void Button8_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(6);
-    }
-    protected void Button9_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(7);
-    }
-    protected void Button10_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(8);
-    }
-    protected void Button11_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(9);
-    }
-    protected void Button12_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(10);
-    }
-    protected void Button13_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(11);
-    }
-    protected void Button14_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(12);
-    }
-    protected void Button15_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(13);
-    }
-    protected void Button16_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(14);
-    }
-    protected void Button17_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(15);
-    }
-    protected void Button18_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(16);
-    }
-    protected void Button19_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(17);
-    }
-    protected void Button20_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(18);
-    }
-    protected void Button21_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(19);
-    }
-    protected void Button22_Click(object sender, EventArgs e)
-    {
-        confirmCount = 1;
-        display(20);
-    }
 
     public void display(int id)
     {
